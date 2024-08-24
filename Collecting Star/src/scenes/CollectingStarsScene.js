@@ -14,6 +14,15 @@ export default class CollectingStarsScene extends Phaser.Scene
         super('collecting-stars-scene')
 
     }
+
+    init(){
+       
+        this.player = undefined;
+        this.stars= undefined
+
+   }
+
+    
     
 	preload()
 	{
