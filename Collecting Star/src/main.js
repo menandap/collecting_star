@@ -1,18 +1,18 @@
 import Phaser from 'phaser'
 
-import CollectingStarsScene from './scenes/CollectingStarsScene'
+import CoronaBusterScene from './scenes/CoronaBusterScene'
 
 const config = {
 	type: Phaser.AUTO,
-	width: 800,
-	height: 600,
+	width: 400,
+	height: 620,
 	physics: {
 		default: 'arcade',
 		arcade: {
 			gravity: { y: 200 }
 		}
 	},
-	scene: [CollectingStarsScene]
+	scene: [CoronaBusterScene]
 }
 
 export default new Phaser.Game(config)
